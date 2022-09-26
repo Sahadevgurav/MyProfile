@@ -3,31 +3,62 @@
 
 <head>
     <title> Index page </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
     <style>
-        .selector{
+        body{
+         background-color: blanchedalmond;
+        }
+        .selector {
             color: red;
-            background-color: blanchedalmond;
+            background-color: #10ac84;
+
+        }
+
+        #nav_bar,
+        a {
+            font-size: 25px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Bungee Spice', cursive;
+            background-color:#c8d6e5 ;
+
+        }
+
+        .header_section {
+            text-align: center;
+            
+        }
+        .nb{
+            border:none;
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
     <header>
-        <p class="selector"> <strong> <i class="fa fa-user-circle-o" aria-hidden="true"></i> &nbsp;&nbsp;Sahadev Gurav &nbsp; &nbsp;
-                &nbsp;
-                <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;9921228688 &nbsp; &nbsp; &nbsp;
-                <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;sahadevgurav@gmail.com </strong></p>
+        <div class="header_section">
+            <p class="selector"> <strong> <i class="fa fa-user-circle-o" aria-hidden="true"></i> &nbsp;&nbsp;Sahadev
+                    Gurav &nbsp; &nbsp;
+                    &nbsp;
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;9921228688 &nbsp; &nbsp; &nbsp;
+                    <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;sahadevgurav@gmail.com </strong></p>
+        </div>
     </header>
 
-    <nav>
+    <nav id="nav_bar">
 
-        <a href="home.html" target="my frame"> Home </a>
+        <a href="home.html" target="my frame" class=> home </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techstack.html" target="my frame"> TECH Stack </a>
+        <a href="techstack.html" target="my frame"> tech Stack </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="my frame"> EDUCATION </a>
+        <a href="education.html" target="my frame"> education</a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="projectDescreption.html" target="my frame"> PROJECT </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -36,15 +67,14 @@
         <a href="personalDetails.html" target="my frame"> PERSONAL DETAIL </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="galary.html" target="my frame"> OTHER </a>
-        
+
 
     </nav>
 
     <hr>
-    <iframe name="my frame" src="info.html" width="1000px" height="500">
-    </iframe>
+    <iframe class="nb" name="my frame" src="info.html" width="1000px" height="500"> </iframe>
 
-    </iframe>
+    
 
     <footer>
         <p> <strong> Follow me </strong> &nbsp; &nbsp; &nbsp;
