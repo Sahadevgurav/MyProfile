@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        form {
+            width: fit-content;
+        }
+
+        body {
+            background-color: #c8d6e5;
+            background-image:url(reg.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        label {
+            color: #222f3e;
+            font-weight: bold;
+        }
+
+        .selector {
+            color: #e74c3c;
+            background-color: bisque;
+
+        }
+
+        input[type="text"] {
+            color: red;
+            background: bisque;
+            text-transform: uppercase;
+            border-radius: 10px;
+
+        }
+        input[type="submit"]{
+            background: greenyellow;
+
+        }
+        input[type="Reset"]{
+            background: #10ac84;
+
+        }
+        
+
+        
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+         <label> <h2> Student Registration form </h2> </label>  
+
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <label> First Name </label> </td>
+                        <td> <input type="text" placeholder=" First Name" autofocus required class="selector"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Last Name </label></td>
+                        <td> <input type="text" placeholder="Last Name" class="selector"> </td>
+                    </tr>
+                    <tr>
+                        <td><label> Mobile </label> </td>
+                        <td> <input type="number" required placeholder="Mobile No" class="selector"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Email Address </label></td>
+                        <td> <input type="email" placeholder="abc@gmail.com" required class="selector"> </td>
+                    </tr>
+                    <tr>
+                        <td><label> Password </label> </td>
+                        <td> <input type=" Password" placeholder=" Password" class="selector"> </td>
+                    </tr>
+                    <tr>
+                        <td><label> Date of birth </label></td>
+                        <td> <input type="date" class="selector"> </td>
+                    </tr>
+                    <tr>
+                        <td><label> Pass out Year </label> </td>
+                        <td> <input type="date" class="selector"></td>
+                    </tr>
+                    <tr>
+                        <td><label> Country </label> </td>
+                        <td> <input type="text" value="India" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><label> Citizenship </label> </td>
+                        <td> <input type="text" value="India" readonly class="selector"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Profile Photo </label></td>
+                        <td> <input class="selector" type="file" ></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Upload All Marksheets </label> </td>
+                        <td> <input class="selector" type="file" > </td>
+                    </tr>
+                    <tr>
+                        <td><label>
+                                <table> Select Graduation </table>
+                            </label>
+                        </td>
+                        <td>
+                            <select class="selector" >
+                                <option>B.E</option>
+                                <option>B.C.S</option>
+                                <option> MCA</option>
+                                <option>BCA</option>
+                                <option>MBA</option>
+                                <option>Msc Computer</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label> Gendet</label> </td>
+                        <td> <input type="radio" name="gender" checked> <label> female </label>
+                            <input type="radio" name="gender"> <label> Male </label>
+                            <input type="radio" name="gender"> <label> Others </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label> Trainings</label></td>
+                        <td> <input type="checkbox" checked> <label> Angular</label>
+                            <input type="checkbox"> <label> JAVA </label>
+                            <input type="checkbox"> <label> .Net</label>
+                            <input type="checkbox"> <label> Develop </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for=""> Parament Adress </label></td>
+                        <td><textarea rows="6" cols="30" class="selector"></textarea ></td>
+
+                    </tr>
+                    <tr>
+                        <td> <input type="submit"> </td>
+                        <td> <input type="Reset"> </td>
+                    </tr>
+                </tbody>
+            </table>
+    </form>
+
+
+    <p> <strong> SSO sign in options </strong></p>
+    <a href="https://www.google.com/" target="_blank"><i class="fa fa-google"
+            aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"
+            aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.facebook.com/" target="blank">
+        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+
+    </fieldset>
+</body>
+
+</html>
